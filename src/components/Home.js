@@ -7,7 +7,7 @@ export const Home = () => {
         <header className="App-header">
           <img src={catLogo} alt="cat logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Clean Cat
           </p>
           <Link 
             className="App-link"
