@@ -1,30 +1,23 @@
-import catLogo from "./assets/cat-clean-256.png";
-import "./App.css";
-import { ChakraProvider } from "@chakra-ui/react"
+import { Link } from "react-router-dom";
+import catLogo from "../assets/cat-clean-256.png";
 
-
-function App() {
+export const Home = () => {
   return (
-    <ChakraProvider>
-      <div className="App">
+    <div className="App">
         <header className="App-header">
           <img src={catLogo} alt="cat logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
+          <Link 
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
             Learn React
-          </a>
+          </Link>
         </header>
       </div>
-    </ChakraProvider>
-    
   );
-}
-
-export default App;
+};
