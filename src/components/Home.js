@@ -6,9 +6,7 @@ export const Home = () => {
     <div className="App">
       <header className="App-header">
         <img src={catLogo} alt="cat logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>Clean Cat</p>
         <Link
           className="App-link"
           href="https://reactjs.org"
