@@ -1,11 +1,9 @@
 import { Link } from "@chakra-ui/react";
 import catLogo from "../assets/cat-clean-256.png";
-import Header from "./Header";
 
 export const Home = () => {
   return (
     <div className="App">
-      <Header />
       <header className="App-header">
         <img src={catLogo} alt="cat logo" />
         <p>

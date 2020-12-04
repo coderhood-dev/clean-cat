@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Flex, Spacer, Box, Button, ButtonGroup } from "@chakra-ui/react";
 import logoApp from "../assets/logoApp.svg";
 
@@ -9,15 +10,21 @@ const Header = () => {
         <img src={logoApp} alt="Logo" />
         <Spacer />
         <ButtonGroup variant="outline" spacing="6">
-          <Button colorScheme="#15222A" variant="link">
-            Home
-          </Button>
-          <Button colorScheme="#15222A" variant="link">
-            About
-          </Button>
-          <Button colorScheme="#15222A" variant="link">
-            Random Cat
-          </Button>
+          <Link to="/" exact>
+            <Button colorScheme="#15222A" variant="link">
+              Home
+            </Button>
+          </Link>
+          <Link to="/about">
+            <Button colorScheme="#15222A" variant="link">
+              About
+            </Button>
+          </Link>
+          <Link to="/random-cat">
+            <Button colorScheme="#15222A" variant="link">
+              Random Cat
+            </Button>
+          </Link>
         </ButtonGroup>
       </Flex>
     </Box>
