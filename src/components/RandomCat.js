@@ -1,3 +1,10 @@
+import Header from "./Header";
+
 export const RandomCat = () => {
-  return <h1>Random Cats</h1>;
+  return (
+    <>
+      <Header />
+      <h1>Random Cats</h1>
+    </>
+  );
 };

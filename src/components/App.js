@@ -2,9 +2,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./Home";
 import { RandomCat } from "./RandomCat";
 import { About } from "./About";
-import { ChakraProvider } from "@chakra-ui/react"
+import { ChakraProvider } from "@chakra-ui/react";
 import "../App.css";
-
 
 function App() {
   return (
