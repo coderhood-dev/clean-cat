@@ -31,8 +31,8 @@ function RandomCat() {
   }
 
   return (
-    <Box>
-      <Image src={images[0].url} alt="kitty" />
+    <Box d="flex" w="100%" justifyContent="center" >
+      <Image src={images[0].url} alt="kitty" width="80%" />
     </Box>
   );
 }
