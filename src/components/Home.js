@@ -16,7 +16,7 @@ export const Home = () => {
         >
           Learn React
         </Link>
-        <Api />
+        <RandomCat />
       </header>
     </div>
   );
