@@ -1,6 +1,6 @@
 import { Link } from "@chakra-ui/react";
 import catLogo from "../assets/cat-clean-256.png";
-import Api from "./Api";
+import RandomCat from "./Api";
 
 export const Home = () => {
   return (
