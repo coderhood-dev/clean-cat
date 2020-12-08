@@ -1,5 +1,6 @@
 import { Link } from "@chakra-ui/react";
 import catLogo from "../assets/cat-clean-256.png";
+import RandomCat from "./Api";
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
         >
           Learn React
         </Link>
+        <RandomCat />
       </header>
     </div>
   );
