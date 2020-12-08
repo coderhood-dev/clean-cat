@@ -4,7 +4,7 @@ import Loading from "./Loading";
 
 const url = "https://api.thecatapi.com/v1/images/search";
 
-function Api() {
+function RandomCat() {
   const [loading, setLoading] = useState(true);
   const [images, setImages] = useState([]);
 
