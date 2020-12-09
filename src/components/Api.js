@@ -18,7 +18,6 @@ function RandomCat() {
       const response = await fetch(url);
       const images = await response.json();
       setImages(images);
-      console.log(images);
       setLoading(false);
     } catch (e) {
       setLoading(false);
@@ -36,4 +35,4 @@ function RandomCat() {
   );
 }
 
-export default Api;
+export default RandomCat;
