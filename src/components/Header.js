@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Flex, Spacer, Box, Button, ButtonGroup } from "@chakra-ui/react";
 import logoApp from "../assets/logoApp.svg";
+import UserName from "./UserName";
 
 const Header = () => {
   return (
@@ -25,6 +26,7 @@ const Header = () => {
               Random Cat
             </Button>
           </Link>
+          <UserName />
         </ButtonGroup>
       </Flex>
     </Box>
