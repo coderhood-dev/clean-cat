@@ -19,7 +19,6 @@ const Categories = () => {
       const response = await fetch(url);
       const categories = await response.json();
       setCategories(categories);
-      console.log(categories);
       setLoading(false);
     } catch (e) {
       setLoading(false);
