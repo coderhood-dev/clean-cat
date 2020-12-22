@@ -34,6 +34,7 @@ const Categories = () => {
       <Box borderWidth="1px" borderRadius="lg" overflow="hidden" mb="15px">
         <RadioGroup onChange={setValue} value={value}>
           <Stack direction="row" spacing={5} padding="1px 8px">
+            <Radio value="0">all</Radio>
             <Radio value="1">{categories[0].name}</Radio>
             <Radio value="2">{categories[1].name}</Radio>
             <Radio value="3">{categories[2].name}</Radio>
