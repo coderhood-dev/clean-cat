@@ -1,22 +1,14 @@
-import { Link } from "@chakra-ui/react";
-import catLogo from "../assets/cat-clean-256.png";
 import RandomCat from "./Api";
+import UserName from "./UserName";
+import Categories from "./Categories";
 
 export const Home = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={catLogo} alt="cat logo" />
-        <p>Clean Cat</p>
-        <Link
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </Link>
+        <Categories />
         <RandomCat />
+        <UserName />
       </header>
     </div>
   );

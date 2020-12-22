@@ -29,8 +29,13 @@ function RandomCat() {
   }
 
   return (
-    <Box d="flex" w="100%" justifyContent="center" >
-      <Image src={images[0].url} alt="kitty" width="80%" />
+    <Box d="flex" w="100%" justifyContent="center">
+      <Image
+        src={images[0].url}
+        alt="kitty"
+        boxSize="600px"
+        objectFit="cover"
+      />
     </Box>
   );
 }
