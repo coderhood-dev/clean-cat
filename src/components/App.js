@@ -7,7 +7,7 @@ import "../App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/clean-cat">
       <Header />
       <Switch>
         <Route path="/random-cat">
@@ -19,6 +19,18 @@ function App() {
         <Route path="/" exact>
           <Home />
         </Route>
+        <Route
+          path="*"
+          component={() => (
+            <div align="center">
+              404
+              <br />
+              <a href="/clean-cat" alt="home">
+                go home
+              </a>
+            </div>
+          )}
+        />
       </Switch>
     </Router>
   );
