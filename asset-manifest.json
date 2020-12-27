@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/clean-cat/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/clean-cat/static/js/main.2129b2c0.chunk.js",
-    "main.js.map": "/clean-cat/static/js/main.2129b2c0.chunk.js.map",
+    "main.js": "/clean-cat/static/js/main.a54af00d.chunk.js",
+    "main.js.map": "/clean-cat/static/js/main.a54af00d.chunk.js.map",
     "runtime-main.js": "/clean-cat/static/js/runtime-main.28c4d1fd.js",
     "runtime-main.js.map": "/clean-cat/static/js/runtime-main.28c4d1fd.js.map",
     "static/js/2.26b1d283.chunk.js": "/clean-cat/static/js/2.26b1d283.chunk.js",
@@ -12,12 +12,12 @@
     "index.html": "/clean-cat/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/clean-cat/static/css/main.8c8b27cf.chunk.css.map",
     "static/js/2.26b1d283.chunk.js.LICENSE.txt": "/clean-cat/static/js/2.26b1d283.chunk.js.LICENSE.txt",
-    "static/media/logoApp.acc1c607.svg": "/clean-cat/static/media/logoApp.acc1c607.svg"
+    "static/media/logoApp.ded2b20d.svg": "/clean-cat/static/media/logoApp.ded2b20d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.28c4d1fd.js",
     "static/js/2.26b1d283.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.2129b2c0.chunk.js"
+    "static/js/main.a54af00d.chunk.js"
   ]
 }
